@@ -29,7 +29,7 @@ services:
     ports:
       - "${PORT}:${PORT}"
     volumes:
-      - ./api.resplice.com/:/app
+      - ./api:/api
     depends_on:
       - db
 
