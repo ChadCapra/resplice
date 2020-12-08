@@ -1,0 +1,9 @@
+# Ignore everything in the root (which by default ignores subdirectories also)
+/*
+
+# But include the following directories (and sub directories)
+!/bin/
+
+# And include the following specific files
+!/.gitignore
+!/README.md
