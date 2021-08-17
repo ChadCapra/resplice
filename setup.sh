@@ -9,8 +9,5 @@ cd resplice
 # Clone replice api
 git clone git@github.com:ChadCapra/api.resplice.com api
 
-# Clone replice pwa
-git clone git@github.com:ChadCapra/pwa.resplice.com pwa
-
 # Clone replice www
 git clone git@github.com:ChadCapra/www.resplice.com www
