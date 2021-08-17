@@ -1,9 +1,8 @@
 # Ignore everything in the root (which by default ignores subdirectories also)
 /*
 
-# But include the following directories (and sub directories)
-!/bin/
-
 # And include the following specific files
+!/docker-compose.yml
 !/.gitignore
 !/README.md
+!/setup.sh
