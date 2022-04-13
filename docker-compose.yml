@@ -32,6 +32,13 @@ services:
       - ./api:/api
     depends_on:
       - db
+  ui:
+    container_name: resplice-ui
+    build: ./www
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
 
 volumes:
     resplice_data: {}
