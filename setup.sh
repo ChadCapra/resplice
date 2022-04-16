@@ -12,5 +12,5 @@ git clone git@github.com:ChadCapra/api.resplice.com api
 # Clone replice proto
 git clone git@github.com:ChadCapra/resplice.proto proto
 
-# Clone replice www
-git clone git@github.com:ChadCapra/www.resplice.com www
+# Clone replice web
+git clone git@github.com:ChadCapra/www.resplice.com web
