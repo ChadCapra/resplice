@@ -43,14 +43,14 @@ services:
   #     - db
   resplice-ui:
     container_name: resplice-ui
-    build: ./web/r-apps/resplice
+    build: ./web/apps/resplice
     ports:
       - 3000:3000
     depends_on:
       - api
   reauth-ui:
     container_name: reauth-ui
-    build: ./web/r-apps/reauth
+    build: ./web/apps/reauth
     ports:
       - 3010:3000
     depends_on:
