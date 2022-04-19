@@ -43,18 +43,18 @@ services:
   #     - db
   resplice-ui:
     container_name: resplice-ui
-    build: ./web/apps/resplice
+    build: ./web
     ports:
       - 3000:3000
-    depends_on:
-      - api
-  reauth-ui:
-    container_name: reauth-ui
-    build: ./web/apps/reauth
-    ports:
-      - 3010:3000
-    depends_on:
-      - api
+    # depends_on:
+    #   - api
+  # reauth-ui:
+  #   container_name: reauth-ui
+  #   build: ./web
+  #   ports:
+  #     - 3010:3000
+  #   depends_on:
+  #     - api
 
 volumes:
   resplice_data: {}
