@@ -45,7 +45,7 @@ services:
     container_name: resplice-ui
     build:
       context: ./web
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.local
       args:
         - BUILD_CONTEXT=resplice
     ports:
